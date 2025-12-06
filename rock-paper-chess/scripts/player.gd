@@ -16,7 +16,6 @@ var initialized : bool = false
 
 var num_of_lost_pieces : int = 0
 
-var total_damage_dealt : float = 0.0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pawn = Piece.new()

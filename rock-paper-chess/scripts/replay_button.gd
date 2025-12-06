@@ -15,5 +15,4 @@ func _replay_button_pressed():
 	fade_animation.play("fade_in")
 	await fade_timer.timeout
 	fade_transisiton.hide()
-	Sfx.resume_bgm()
 	get_tree().reload_current_scene()
